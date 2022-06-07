@@ -1,0 +1,24 @@
+.wrapper {
+    display: flex;
+    /* flex-direction: column; */
+    height: 100vh;
+}
+
+.section-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    box-shadow: 5px 0 5px -2px #888;
+}
+
+aside {
+    flex: 1;
+}
+
+
+
+main {
+    height: 500px;
+    background-color: coral;
+}
+
